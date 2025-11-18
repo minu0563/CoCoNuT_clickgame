@@ -1,0 +1,45 @@
+[
+    {
+      "id": "achv1",
+      "countKey": "achv1Complete",
+      "shownKey": "achv1Shown",
+      "target": 300000
+    },
+    {
+      "id": "achv2",
+      "countKey": "achv2Complete",
+      "shownKey": "achv2Shown",
+      "target": 7777777
+    },
+    {
+      "id": "achv3",
+      "countKey": "achv3Complete",
+      "shownKey": "achv3Shown",
+      "target": 100000000
+    },
+    {
+      "id": "achv4",
+      "countKey": "achv4Complete",
+      "shownKey": "achv4Shown",
+      "target": 9999999999
+    },
+    {
+      "id": "achv5",
+      "countKey": "achv5Complete",
+      "shownKey": "achv5Shown",
+      "target": 10000000000000000
+    },
+    {
+      "id": "achv6",
+      "countKey": "achv6Complete",
+      "shownKey": "achv6Shown",
+      "target": 500000000000000000
+    },
+    {
+      "id": "achv7",
+      "countKey": "achv7Complete",
+      "shownKey": "achv7Shown",
+      "target": 20000000000000000000
+    }
+  ]
+  

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>CoCoFarm</title>
+  <link rel="stylesheet" href="../css/popup.css" />
+</head>
+
+<body class="cocofarmbody">
+  <div class="menu">
+    <a class="menu-text" href="../html/popup.html">Main</a>
+    <a class="menu-text" href="../html/upgrade.html">Upgrade</a>
+    <a class="menu-text" href="../html/cocofarm.html">CocoFarm</a>
+    <a class="menu-text" href="../html/Achievement.html">Achievement</a>
+  </div>
+
+  <p id="text">CoCoFarm</p>
+
+  <div class="top">
+    <div class="casino">
+      <label for="casinoinput" id="casinolabel">Enter coconuts:
+        <input type="number" id="casinoinput" placeholder="number of coconuts" min="1" required />
+      </label>
+    </div>
+
+    <button id="play-button">Play</button>
+
+    <div class="slot-container">
+      <img id="slot1" src="../images/coco1.png" alt="Coconut 1" />
+      <img id="slot2" src="../images/coco2.png" alt="Coconut 2" />
+      <img id="slot3" src="../images/coco3.png" alt="Coconut 3" />
+    </div>
+
+    <div class="play-bar-container">
+      <div class="play-bar">
+        <div id="play-bar-fill"></div>
+      </div>
+      <div id="play-bar-text">0 / 10</div>
+    </div>
+
+    <div id="result" class="message"></div>
+
+    <div class="bottomm">
+      <div class="coconut-count-container">
+        <span id="countofcoconuts">Number of coconuts:
+          <span id="cost">0</span>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div id="line"></div>
+
+  <p id="text">STOCK</p>
+  <div class="stocktexts">
+    <p id="stocktext">stock price : <span id="display"></span></p>
+    <span id="jusic"></span>
+  </div>
+
+  <button id="tooja">Invest</button>
+  <p id="tooja-msg"></p>
+
+  <button id="buy">Buy All</button>
+  <p id="buy-msg"></p>
+
+  <button id="sell">Sell</button>
+  <p id="sell-msg"></p>
+
+  <button id="sell-all">Sell All</button>
+  <p id="sell-all-msg"></p>
+
+  <div id="profit"></div>
+
+  <div id="chart" style="width: 300px; height:300px;"></div>
+
+  <div class="bottom">
+    <div class="coconut-count-container">
+      <span id="countofcoconuts-bottom">Number of coconuts:
+        <span id="cost-bottom">0</span>
+      </span>
+    </div>
+  </div>
+
+  <script src="../js/cocofarm.js"></script>
+  <script src="../js/echart.min.js"></script>
+  <script src="../js/money.js"></script>
+  <script src="../js/content.js"></script>
+</body>
+
+</html>

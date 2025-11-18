@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Get CoCoNuT!!",
+  "version": "1.0",
+  "description": "클릭해서 코코넛을 얻어보세요!!",
+  "permissions": ["storage", "alarms"],
+  "action": {
+    "default_popup": "html/popup.html",
+    "default_title": "확장 기능 실행"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["json/achievements.json"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
