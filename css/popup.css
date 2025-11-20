@@ -31,6 +31,14 @@ body.body {
     flex-direction: column;
 }
 
+#underline {
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
 .menu {
     border-bottom: 1px solid black;
     padding-bottom: 7px;

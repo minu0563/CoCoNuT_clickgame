@@ -14,7 +14,7 @@
   },
   "web_accessible_resources": [
     {
-      "resources": ["json/achievements.json"],
+      "resources": ["json/*.json"],
       "matches": ["<all_urls>"]
     }
   ]
