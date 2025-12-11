@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Get CoCoNuT!!",
   "version": "1.0",
-  "description": "클릭해서 코코넛을 얻어보세요!!",
+  "description": "click and get coconut!!",
   "permissions": ["storage", "alarms"],
   "action": {
     "default_popup": "html/popup.html",
@@ -11,6 +11,11 @@
   "background": {
     "service_worker": "background.js",
     "type": "module"
+  },
+  "icons": {
+    "16": "images/logo16.png",
+    "48": "images/logo48.png",
+    "128": "images/logo128.png"
   },
   "web_accessible_resources": [
     {

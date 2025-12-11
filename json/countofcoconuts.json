@@ -1,49 +1,91 @@
 [
     {
       "id": "achv1",
-      "title": "",
-      "description": "Collect 300,000 coconuts.",
+      "title": "first coconut",
+      "description": "Collect 1 coconut.",
       "countKey": "achv1Complete",
       "shownKey": "achv1Shown",
-      "target": 300000
+      "target": 1
     },
     {
       "id": "achv2",
+      "title": "coconut jackpot!!!",
+      "description": "Collect 777 coconuts.",
       "countKey": "achv2Complete",
       "shownKey": "achv2Shown",
-      "target": 7777777
+      "target": 777
     },
     {
       "id": "achv3",
+      "title": "The Beginning of Everything",
+      "description": "Collect 202505 coconuts.",
       "countKey": "achv3Complete",
       "shownKey": "achv3Shown",
-      "target": 100000000
+      "target": 202505
     },
     {
       "id": "achv4",
+      "title": "Coconut Meister",
+      "description": "Collect 7,000,000 coconuts.",
       "countKey": "achv4Complete",
       "shownKey": "achv4Shown",
-      "target": 9999999999
+      "target": 7000000
     },
     {
       "id": "achv5",
+      "title": " I AM A COCONUT!!!",
+      "description": "Collect 20,210,917 coconuts.",
       "countKey": "achv5Complete",
       "shownKey": "achv5Shown",
-      "target": 10000000000000000
+      "target": 20210917
     },
     {
       "id": "achv6",
+      "title": "VVIP of the Coconut Bank",
+      "description":"Collect 1,000,000,000 coconuts.",
       "countKey": "achv6Complete",
       "shownKey": "achv6Shown",
-      "target": 500000000000000000
+      "target": 1000000000
     },
     {
       "id": "achv7",
-      "title":"Coconut Novice",
-      "description":"Collect 20,000,000,000,000,000,000 coconuts.",
+      "title":"Bought a House with Coconuts",
+      "description":"Collect 12,000,000,000 coconuts.",
       "countKey": "achv7Complete",
       "shownKey": "achv7Shown",
-      "target": 20000000000000000000
+      "target": 12000000000
+    },
+    {
+      "id": "achv8",
+      "title": "Domain Expansion... Unlimited CoCoNut!",
+      "description":"Collect 200,000,000,000 coconuts.",
+      "countKey": "achv8Complete",
+      "shownKey": "achv8Shown",
+      "target": 200000000000
+    },
+    {
+      "id": "achv9",
+      "title": "Sick of Coconuts",
+      "description":"Collect 3,000,000,000,000 coconuts.",
+      "countKey": "achv9Complete",
+      "shownKey": "achv9Shown",
+      "target": 3000000000000
+    },
+    {
+      "id": "achv10",
+      "title": "Hawaii! Hawaii! Hawaii!",
+      "description":"Collect 1,200,000,000,000,000 coconuts.",
+      "countKey": "achv10Complete",
+      "shownKey": "achv10Shown",
+      "target": 1200000000000000
+    },
+   {
+      "id": "achv11",
+      "title": "The Final Coconut",
+      "description":"Collect 10,000,000,000,000,000 coconuts.",
+      "countKey": "achv11Complete",
+      "shownKey": "achv11Shown",
+      "target": 10000000000000000
     }
   ]
   

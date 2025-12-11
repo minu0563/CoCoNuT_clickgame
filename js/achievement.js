@@ -33,6 +33,10 @@ function createAchievementBox(achievement, container) {
   box.id = `${achievement.id}-box`;
   box.style.display = 'none';
 
+  const title = document.createElement('div');
+  title.className = 'achievement-title';
+  title.textContent = achievement.title || 'Untitled Achievement';
+
   const status = document.createElement('span');
   status.id = achievement.id;
   status.className = 'yellow-box incomplete';
@@ -41,7 +45,8 @@ function createAchievementBox(achievement, container) {
   const leftText = document.createElement('div');
   leftText.className = 'left-text';
   leftText.textContent = achievement.description || `Get ${achievement.target.toLocaleString()} points`;
-
+  
+  box.appendChild(title);
   box.appendChild(leftText);
   box.appendChild(status);
   container.appendChild(box);
@@ -54,7 +59,14 @@ function updateAchievementStatus(achievement, currentCount, data, achievements, 
 
   const wasComplete = data[achievement.countKey] || false;
   const wasClicked = data[achievement.id + 'Clicked'] || false;
-  const isNowComplete = currentCount >= achievement.target;
+
+  let isNowComplete;
+  if (achievement.id === "achv2") {
+    isNowComplete = currentCount === achievement.target;
+  } else {
+    isNowComplete = currentCount >= achievement.target;
+  }
+
   const isLastAchievement = index === achievements.length - 1;
 
   if (isNowComplete) {
@@ -94,5 +106,6 @@ function updateAchievementStatus(achievement, currentCount, data, achievements, 
     box.style.display = (index === firstVisibleIndex && !wasClicked) ? 'block' : 'none';
   }
 }
+
 
 document.addEventListener('DOMContentLoaded', loadAchievements);
