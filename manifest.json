@@ -3,7 +3,7 @@
   "name": "Get CoCoNuT!!",
   "version": "1.0",
   "description": "click and get coconut!!",
-  "permissions": ["storage", "alarms"],
+  "permissions": ["storage"],
   "action": {
     "default_popup": "html/popup.html",
     "default_title": "확장 기능 실행"
