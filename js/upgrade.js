@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   const increaseClickGainButtons = [
-    { id: 'increase-click-gain-1', amount: 20311000000000000000, cost: 50, resultId: 'result-1' },
+    { id: 'increase-click-gain-1', amount: 1, cost: 50, resultId: 'result-1' },
     { id: 'increase-click-gain-2', amount: 5, cost: 200, resultId: 'result-2' },
     { id: 'increase-click-gain-3', amount: 25, cost: 1000, resultId: 'result-3' },
     { id: 'increase-click-gain-4', amount: 125, cost: 5000, resultId: 'result-4' },
